@@ -1,0 +1,148 @@
+body {
+
+    background-color: #000000;
+}
+.valign-wrapper {
+    height:768px;
+}
+
+#itinerary{
+    background-color:black;
+    width: 200px;
+    min-height: 100vh;
+    margin-right: 2%;
+}
+
+.collapsible {
+    border:1px solid black;
+}
+
+.collapsible-body {
+    background-color: lightgray;
+}
+
+#name-display {
+    margin-left: 1%;
+}
+
+#title {
+    text-align: center;
+
+}
+
+#icons {
+    margin-right:10%;
+}
+
+
+.fas{
+    color: gray;
+    margin: 0 auto;
+    font-size: 8rem;
+}
+
+.back-btn {
+    font-size: 5rem;
+}
+
+.fas:hover {
+    color:#124daa;
+    transition: 1s;
+}
+
+
+.row {
+    width: 100%;
+}
+
+input {
+    color: white;
+    border-radius: 15px;
+}
+
+.input-field input[type=text]:focus + label {
+    color:#124daa !important;
+}
+
+/* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #124daa !important;
+    box-shadow: 0 1px 0 0#124daa !important;
+  }
+
+  .input-field input[type=email]:focus + label {
+    color:#124daa !important;
+}
+/* label underline focus color */
+  .input-field input[type=email]:focus {
+    border-bottom: 1px solid #124daa !important;
+    box-shadow: 0 1px 0 0#124daa !important;
+  }
+
+  .card-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem !important;
+    font-weight: bold;
+  }
+
+  li {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+p, h1, h4, h5 {
+    color:lightgray;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif
+}
+
+img {
+    max-width: 100%;
+    height:175px;
+}
+
+#card-display {
+    margin-top: 4vh;
+}
+
+.newCard {
+    display: inline-block;
+    margin: 0px 10px;
+    width: 235px;
+}
+
+.card-content{
+    overflow: scroll;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+    color:#124daa;
+}
+
+#plus {
+    font-size: 2rem;
+    color:#124daa;
+}
+
+#finished {
+    margin-left: 5%;
+}
+
+#loading {
+    width:100px;
+    height:100px;
+    position:fixed;
+    top: 45%;
+    left: 45%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: all 5000s ease-in-out 0s;
+    transition-property: background-color, color;
+}
+
