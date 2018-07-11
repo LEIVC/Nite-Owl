@@ -11,8 +11,8 @@ GraceNote API<br>
 
 ## _Future Development and Features_
 The main goals we have for the future development of this app are as follows<br>
-1.Include concerts and live events<br> 
-2.Link to ride-sharing apps<br> 
-3.A “night-in” itinerary<br> 
-4.Share itinerary to social media and invite friends<br> 
-5.Links to TicketMaster and Fandango<br>
+1. Include concerts and live events<br> 
+2. Link to ride-sharing apps<br> 
+3. A “night-in” itinerary<br> 
+4. Share itinerary to social media and invite friends<br> 
+5. Links to TicketMaster and Fandango<br>
